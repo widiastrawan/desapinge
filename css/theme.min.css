@@ -1024,18 +1024,18 @@ button:not(:disabled) {
 
 .btn-warning {
     --bs-btn-color: #151515;
-    --bs-btn-bg: #fd7e14;
-    --bs-btn-border-color: #fd7e14;
+    --bs-btn-bg: #FEF967;;
+    --bs-btn-border-color: #FEF967;
     --bs-btn-hover-color: #151515;
-    --bs-btn-hover-bg: #fd9137;
-    --bs-btn-hover-border-color: #fd8b2c;
+    --bs-btn-hover-bg: #FEF967;
+    --bs-btn-hover-border-color: #FEF967;
     --bs-btn-focus-shadow-rgb: 218, 110, 20;
     --bs-btn-active-color: #151515;
-    --bs-btn-active-bg: #fd9843;
-    --bs-btn-active-border-color: #fd8b2c;
+    --bs-btn-active-bg: #FEF967;
+    --bs-btn-active-border-color: #FEF967;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(21, 21, 21, 0.125);
     --bs-btn-disabled-color: #151515;
-    --bs-btn-disabled-bg: #fd7e14;
+    --bs-btn-disabled-bg: #FEF967;
     --bs-btn-disabled-border-color: #fd7e14
 }
 

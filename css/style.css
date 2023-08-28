@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yeseva+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yeseva+One&display=swap');
 
   .font-1 {
     font-family: 'Tiro Devanagari Hindi', serif;
@@ -10,6 +10,10 @@
 
   .font-3 {
     font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-4{
+    font-family: 'Poppins', sans-serif;
   }
 
   nav>ul>li>a {
@@ -33,7 +37,7 @@
 
   .vt {
     top: 525px;
-    left: 920px;
+    left: 780px;
     width: 240px;
     height: 215px;
     flex-shrink: 0;
@@ -57,7 +61,7 @@
 
   .lw {
     top: 480px;
-    left: 1200px;
+    left: 1050px;
     width: 240px;
     height: 256px;
     flex-shrink: 0;
@@ -66,21 +70,22 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
-  .lw::before, .vt::before {
+  .lw::before,
+  .vt::before {
     content: "";
     position: absolute;
     top: 50%;
-    left: -3px; 
-    width: 6px; 
-    height: 60%; 
-    background-color: yellow; 
-    transform: translateY(-50%); 
+    left: -3px;
+    width: 6px;
+    height: 60%;
+    background-color: yellow;
+    transform: translateY(-50%);
   }
 
   .container-fluid.position-relative {
     position: relative;
   }
-  
+
   .container-fluid.position-relative::before {
     content: "";
     position: absolute;
@@ -88,25 +93,85 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay color with opacity */
-    z-index: -1; /* Place it behind the content */
+    background: rgba(0, 0, 0, 0.6);
+    /* Dark overlay color with opacity */
+    z-index: -1;
+    /* Place it behind the content */
   }
-  
-  .container-fluid.position-relative > .row {
-    position: relative;
-    z-index: 1; /* Place the content above the overlay */
-  }
-  
-  /* Rest of your existing styles */
 
-  
-  .navbar.scrolled a.nav-link{
-    color:#275A52 !important;
+  .container-fluid.position-relative>.row {
+    position: relative;
+    z-index: 1;
+    /* Place the content above the overlay */
   }
-  
-  .navbar a.nav-link.active{
+
+  .navbar.scrolled a.nav-link {
+    color: #275A52 !important;
+  }
+
+  .navbar a.nav-link.active {
     border-bottom: 2px yellow solid !important;
   }
-  .navbar.scrolled a.nav-link.active{
+
+  .navbar.scrolled a.nav-link.active {
     border-bottom: 2px #275A52 solid !important;
+  }
+
+  .vt-2 {
+    width: 360px;
+    height: 123px;
+    top: 250px;
+    left: 39px;
+    color: #FFF9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113%;
+  }
+
+  .btn-vt-2 {
+    top: 250px;
+    left: 40px;
+  }
+
+  .vt-2-dot {
+    top: 50px;
+    left: 20px;
+  }
+
+  .text-vt-2 {
+    top: 90PX;
+    left: 150px;
+    padding: 10px;
+    width: 250px;
+    height: fit-content;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+    background: #FEF967;
+  }
+
+  .text-vt-2 p {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113%;
+    margin: 0;
+  }
+
+  .vt-3 {
+    width: 360px;
+    height: 123px;
+    top: 250px;
+    left: 39px;
+    color: #FFF9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113%;
+  }
+
+  .btn-vt-3 {
+    top: 20px;
+    left: 0;
   }
