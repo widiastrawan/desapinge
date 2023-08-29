@@ -117,6 +117,18 @@
     border-bottom: 2px #275A52 solid !important;
   }
 
+  .navbar.scrolled a.nav-link2 {
+    color: #275A52 !important;
+  }
+
+  .navbar a.nav-link2.active {
+    border-bottom: 2px #275A52 solid !important;
+  }
+
+  .navbar.scrolled a.nav-link2.active {
+    border-bottom: 2px #275A52 solid !important;
+  }
+
   .vt-2 {
     width: 360px;
     height: 123px;
