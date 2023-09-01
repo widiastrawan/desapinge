@@ -1,5 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yeseva+One&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
   .font-1 {
     font-family: 'Tiro Devanagari Hindi', serif;
   }
@@ -324,3 +328,25 @@
   #galeri .card{
     border: none !important;
   }
+
+
+  /* POTENSI WISATA */
+
+  #potensi-wisata .navbar.scrolled {
+    background-color: #FFFFFF;
+    transition: ease-in .3s;
+  }
+
+  #potensi-wisata .navbar {
+    transition: ease-in .3s;
+  }
+
+  #potensi-wisata .navbar ul>li>a {
+    text-decoration: none !important;
+  }
+
+  #potensi-wisata .navbar ul>li>a#potensi-navbar {
+    border-bottom: 2px solid #275A52;
+  }
+
+  /* POTENSI WISATA */
