@@ -39,7 +39,7 @@
                             style="color: #275A52 !important;">Galeri</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link2" href="/" style="color: #275A52 !important;">Tentang</a>
+                        <a class="nav-link2" href="tentang.html" style="color: #275A52 !important;">Tentang</a>
                     </li>
                 </ul>
             </div>
@@ -71,61 +71,57 @@
             <div class="row mx-auto my-auto justify-content-center">
                 <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
+
                         <div class="carousel-item active">
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="carousel-item">
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://picsum.photos/seed/picsum/400/450" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
+
                     <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
                         data-bs-slide="prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="156" height="158" viewBox="0 0 156 158"
@@ -154,6 +150,7 @@
                             </defs>
                         </svg>
                     </a>
+
                     <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
                         data-bs-slide="next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="156" height="158" viewBox="0 0 156 158"
@@ -182,6 +179,7 @@
                             </defs>
                         </svg>
                     </a>
+
                 </div>
             </div>
         </div>
@@ -299,29 +297,29 @@
             }
         })
 
-        document.addEventListener("DOMContentLoaded", function () {
-            const carouselItems = document.querySelectorAll(".carousel-item");
-            const fullImgOverlay = document.createElement("div");
-            fullImgOverlay.className = "carousel-full-img-overlay";
-            document.body.appendChild(fullImgOverlay);
+        // document.addEventListener("DOMContentLoaded", function () {
+        //     const carouselItems = document.querySelectorAll(".carousel-item");
+        //     const fullImgOverlay = document.createElement("div");
+        //     fullImgOverlay.className = "carousel-full-img-overlay";
+        //     document.body.appendChild(fullImgOverlay);
 
-            carouselItems.forEach((item, index) => {
-                item.addEventListener("click", function () {
-                    const imgSrc = item.querySelector("img").src;
-                    const fullImg = document.createElement("img");
-                    fullImg.src = imgSrc;
-                    fullImgOverlay.innerHTML = "";
-                    fullImgOverlay.appendChild(fullImg);
-                    fullImgOverlay.style.display = "flex";
-                });
-            });
+        //     carouselItems.forEach((item, index) => {
+        //         item.addEventListener("click", function () {
+        //             const imgSrc = item.querySelector("img").src;
+        //             const fullImg = document.createElement("img");
+        //             fullImg.src = imgSrc;
+        //             fullImgOverlay.innerHTML = "";
+        //             fullImgOverlay.appendChild(fullImg);
+        //             fullImgOverlay.style.display = "flex";
+        //         });
+        //     });
 
-            fullImgOverlay.addEventListener("click", function (event) {
-                if (event.target === fullImgOverlay) {
-                    fullImgOverlay.style.display = "none";
-                }
-            });
-        });
+        //     fullImgOverlay.addEventListener("click", function (event) {
+        //         if (event.target === fullImgOverlay) {
+        //             fullImgOverlay.style.display = "none";
+        //         }
+        //     });
+        // });
     </script>
 
     <script src="js/aos.js"></script>
