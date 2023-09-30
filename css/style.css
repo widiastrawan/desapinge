@@ -5,11 +5,11 @@
   }
 
   .font-1 {
-    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: 'Montserrat', cursive;
   }
 
   .font-2 {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Montserrat', cursive;
   }
 
   .font-3 {
@@ -17,7 +17,7 @@
   }
 
   .font-4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   nav>ul>li>a {
@@ -39,15 +39,37 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 
+  .logo-nav {
+    margin-left: 20px;
+  }
+
+  .font-content-home h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+
   .vt {
     top: 525px;
-    left: 780px;
+    left: 500px;
     width: 240px;
     height: 215px;
     flex-shrink: 0;
     border-radius: 10px;
     background: rgba(217, 217, 217, 0.15);
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .card-margin {
+    width: 100px;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    margin: 0 20px 0 20px;
+  }
+
+  .card-img-size {
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
   }
 
   .btn-vt-text {
@@ -64,10 +86,10 @@
   }
 
   .lw {
-    top: 480px;
-    left: 1050px;
+    top: 525px;
+    left: 780px;
     width: 240px;
-    height: 256px;
+    height: 215px;
     flex-shrink: 0;
     border-radius: 10px;
     background: rgba(217, 217, 217, 0.15);
@@ -103,6 +125,44 @@
     /* Place it behind the content */
   }
 
+  .height-hero2 {
+    height: 300px;
+    background: linear-gradient(180deg, rgba(36, 107, 93, 0) 79.57%, rgba(39, 90, 82, 0.86) 100%), url(../img/bapak.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+  .content-hero2 {
+    margin-top: -255px;
+    font-size: 40px;
+  }
+
+  .tari-gebyog {
+    font-size: 40px;
+  }
+
+  .li-color {
+    color: white;
+  }
+
+  .hub {
+    font-size: 16px;
+    color: #fff;
+    width: 220px;
+    height: 55px;
+    background-color: #FFE500;
+    margin: 10px;
+  }
+
+  .hero-p {
+    font-size: 36px;
+  }
+
+  .hero-desa {
+    font-size: 46;
+  }
+
   .container-fluid.position-relative>.row {
     position: relative;
     z-index: 1;
@@ -110,7 +170,7 @@
   }
 
   .navbar.scrolled a.nav-link {
-    color: #275A52 !important;
+    color: #5e5a5afc !important;
   }
 
   .navbar a.nav-link.active {
@@ -118,11 +178,11 @@
   }
 
   .navbar.scrolled a.nav-link.active {
-    border-bottom: 2px #275A52 solid !important;
+    border-bottom: 2px #FFE500 solid !important;
   }
 
   .navbar.scrolled a.nav-link2 {
-    color: #275A52 !important;
+    color: #000 !important;
   }
 
   .navbar a.nav-link2.active {
@@ -131,6 +191,12 @@
 
   .navbar.scrolled a.nav-link2.active {
     border-bottom: 2px #275A52 solid !important;
+  }
+
+  /* map */
+  .map-location {
+    width: 450px;
+    height: 440px;
   }
 
   .vt-2 {
@@ -200,6 +266,14 @@
     /* border-radius: 10px; */
   }
 
+  /* Button Hub */
+  .button-hub {
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: -25px;
+  }
+
   img.img-tentang {
     width: 100%;
     height: 200px;
@@ -237,8 +311,8 @@
     text-decoration: none !important;
   }
 
-  #galeri .navbar ul>li>a#galeri-navbar {
-    border-bottom: 2px solid #275A52;
+  .navbar ul>li>a#galeri-navbar {
+    border-bottom: 2px solid #FFE500;
   }
 
   #galeri .btn-success {
@@ -391,3 +465,95 @@
 
   */
   /* GALERI VIDEO */
+
+
+  /* Modal */
+  .image-modal {
+    width: 1000px;
+  }
+
+
+  .container .title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .content-title {
+    border: #000;
+  }
+
+  .content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .content:hover .content-overlay {
+    opacity: 1;
+  }
+
+  .content-image {
+    width: 100%;
+  }
+
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .content-details h3 {
+    color: #fff;
+    border: solid #FFF;
+    border-width: 100px;
+    border-width: 10px;
+    font-size: 12px;
+  }
+
+  .content-details p {
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+  .fadeIn-bottom {
+    width: 190px;
+    top: 80%;
+    border: solid #FFF;
+    border-width: 1px;
+    border-radius: 10px;
+  }

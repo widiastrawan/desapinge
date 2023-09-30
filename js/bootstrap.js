@@ -2095,7 +2095,7 @@
       this._createPopper(); // If this is a touch-enabled device we add extra
       // empty mouseover listeners to the body's immediate children;
       // only needed because of broken event delegation on iOS
-      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
+      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.php
 
 
       if ('ontouchstart' in document.documentElement && !this._parent.closest(SELECTOR_NAVBAR_NAV)) {
@@ -3669,7 +3669,7 @@
         return;
       }
 
-      if (this._config.html) {
+      if (this._config.php) {
         templateElement.innerHTML = this._maybeSanitize(content);
         return;
       }
@@ -3686,7 +3686,7 @@
     }
 
     _putElementInTemplate(element, templateElement) {
-      if (this._config.html) {
+      if (this._config.php) {
         templateElement.innerHTML = '';
         templateElement.append(element);
         return;
@@ -3905,7 +3905,7 @@
       tip.classList.add(CLASS_NAME_SHOW$2); // If this is a touch-enabled device we add extra
       // empty mouseover listeners to the body's immediate children;
       // only needed because of broken event delegation on iOS
-      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
+      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.php
 
       if ('ontouchstart' in document.documentElement) {
         for (const element of [].concat(...document.body.children)) {

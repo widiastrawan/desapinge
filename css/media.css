@@ -1,0 +1,170 @@
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+        font-size: 72%;
+    }
+
+    .font-content-home h2 {
+        font-size: 40%;
+    }
+
+    .navbar ul li a {
+        font-size: 18px;
+    }
+
+    .image-modal {
+        width: 400px;
+    }
+
+    .card-mobile {
+        width: 350px;
+    }
+
+    .height-hero2 {
+        min-height: 380px;
+    }
+
+    .content-hero2 {
+        top: -90px;
+    }
+
+    /* Galeri Img */
+    .galeri-image {
+        display: flex;
+        align-items: center;
+        width: 600px;
+    }
+
+    .color-mb {
+        color: #275A52;
+    }
+
+    .hero-p {
+        font-size: 32px;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .vt {
+        margin-left: -400px;
+        margin-top: -100px;
+    }
+
+    .lw {
+        margin-left: -680px;
+        margin-top: 150px;
+        width: 40px;
+        height: 15px;
+    }
+
+    .button-hub {
+        width: 120px;
+        height: 35px;
+        margin-top: 30px;
+    }
+
+    .font-2 {
+        font-size: 30px;
+    }
+
+    .potensi-mobile .font-2 {
+        font-size: 18px;
+    }
+
+    #potensi-wisata .row {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    #potensi-wisata .row ul.d-flex li {
+        align-self: center !important;
+    }
+
+    #potensi-wisata .row ul.d-flex {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .footer-font ul li a {
+        font-size: 88px;
+    }
+
+    #tentang .phone {
+        margin: 0 auto !important;
+        max-width: 50%;
+    }
+
+    #tentang .phone-2 {
+        display: flex;
+        align-items: center;
+        max-width: 50%;
+    }
+
+    #tentang h6 {
+        font-size: 20px !important;
+    }
+
+    footer ul li a {
+        font-size: 15px !important;
+    }
+
+    .map-location.hp-mode {
+        margin-top: 20px !important;
+        margin: 0 auto;
+        width: 90%;
+        height: 480px;
+    }
+
+    .p-style {
+        font-size: 16px;
+    }
+
+    .card-btn-style {
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .tari-gebyog {
+        font-size: 32px;
+    }
+
+    .next-style {
+        font-size: 10px;
+    }
+
+    .h3-mobile {
+        font-size: 30px;
+    }
+
+    .ul-mobile {
+        background-color: white;
+    }
+
+    .li-color {
+        color: #275A52;
+    }
+
+    h2.f-hp {
+        font-size: 30px !important;
+    }
+
+    body#beranda .py-vh-5 {
+        padding-top: 5vh !important;
+    }
+
+    body#bernada #vt .bg {
+        background-size: cover;
+    }
+
+    .nav-link.active {
+        color: #275A52 !important;
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+}
